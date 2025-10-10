@@ -1,0 +1,1934 @@
+[
+  {
+    "id": "23",
+    "vocabularies": [
+      {
+        "vocabulary": "acclaim",
+        "define": "to praise enthusiastically and publicly",
+        "IPA": "/əˈkleɪm/",
+        "vietnames": "hoan nghênh, tán dương",
+        "type": "verb",
+        "example": "The author's latest novel was acclaimed by critics worldwide.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "bookcase",
+        "define": "a piece of furniture with shelves for storing books",
+        "IPA": "/ˈbʊkˌkeɪs/",
+        "vietnames": "giá sách",
+        "type": "noun",
+        "example": "She arranged her favorite novels neatly on the bookcase.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "cheer",
+        "define": "to shout approval or encouragement",
+        "IPA": "/tʃɪr/",
+        "vietnames": "cổ vũ, hoan hô",
+        "type": "verb",
+        "example": "The crowd cheered as the team scored the winning goal.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "chronic",
+        "define": "persisting for a long time or constantly recurring",
+        "IPA": "/ˈkrɒnɪk/",
+        "vietnames": "mãn tính, kinh niên",
+        "type": "adjective",
+        "example": "He suffers from chronic back pain.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "cleanliness",
+        "define": "the state or quality of being clean",
+        "IPA": "/ˈklen.li.nəs/",
+        "vietnames": "sự sạch sẽ",
+        "type": "noun",
+        "example": "Regular handwashing is essential for personal cleanliness.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "complication",
+        "define": "a circumstance that complicates something; a difficulty",
+        "IPA": "/kɒmplɪˈkeɪʃən/",
+        "vietnames": "sự phức tạp, biến chứng",
+        "type": "noun",
+        "example": "The surgery went well, but there was a minor complication during recovery.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "considerate",
+        "define": "careful not to cause inconvenience or hurt to others",
+        "IPA": "/kənˈsɪdərət/",
+        "vietnames": "chu đáo, ân cần",
+        "type": "adjective",
+        "example": "She is always considerate of her neighbors' needs.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "contestant",
+        "define": "a person who takes part in a contest or competition",
+        "IPA": "/kənˈtɛstənt/",
+        "vietnames": "thí sinh, người dự thi",
+        "type": "noun",
+        "example": "Each contestant had to answer ten questions in the quiz show.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "daytime",
+        "define": "the time of the day between sunrise and sunset",
+        "IPA": "/ˈdeɪ.taɪm/",
+        "vietnames": "ban ngày",
+        "type": "noun",
+        "example": "She prefers to work during the daytime.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "decoration",
+        "define": "the process or art of decorating something",
+        "IPA": "/dek.əˈreɪ.ʃən/",
+        "vietnames": "sự trang trí",
+        "type": "noun",
+        "example": "The hall was filled with beautiful decorations for the wedding.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "deteriorate",
+        "define": "to become worse in quality or condition",
+        "IPA": "/dɪˈtɪəriəreɪt/",
+        "vietnames": "trở nên tồi tệ hơn",
+        "type": "verb",
+        "example": "Her health deteriorated rapidly after the accident.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "discard",
+        "define": "to throw something away or get rid of it because you no longer want or need it",
+        "IPA": "/dɪsˈkɑːd/",
+        "vietnames": "loại bỏ, vứt bỏ",
+        "type": "verb",
+        "example": "He discarded the old newspapers stacked in the corner.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "drastically",
+        "define": "in a way that is severe and sudden or has very noticeable effects",
+        "IPA": "/ˈdræstɪkli/",
+        "vietnames": "một cách mạnh mẽ, quyết liệt",
+        "type": "adverb",
+        "example": "The company has drastically reduced its prices.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "erase",
+        "define": "to remove something completely, especially something written or recorded",
+        "IPA": "/ɪˈreɪs/",
+        "vietnames": "xóa bỏ",
+        "type": "verb",
+        "example": "She erased the chalkboard after the lesson.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "ethics",
+        "define": "moral principles that govern a person's behavior or the conducting of an activity",
+        "IPA": "/ˈɛθɪks/",
+        "vietnames": "đạo đức",
+        "type": "noun",
+        "example": "Business ethics are important in corporate governance.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "explorer",
+        "define": "a person who travels to unknown places to discover new things",
+        "IPA": "/ɪkˈsplɔːrər/",
+        "vietnames": "nhà thám hiểm",
+        "type": "noun",
+        "example": "The explorer ventured into the uncharted jungle.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "factual",
+        "define": "concerned with what is actually the case; based on facts",
+        "IPA": "/ˈfæktʃuəl/",
+        "vietnames": "thực tế, dựa trên sự thật",
+        "type": "adjective",
+        "example": "The article provided a factual account of the events.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "fixture",
+        "define": "a piece of equipment or furniture that is fixed in position in a building or vehicle",
+        "IPA": "/ˈfɪkstʃər/",
+        "vietnames": "đồ đạc cố định",
+        "type": "noun",
+        "example": "The light fixtures were installed last week.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "footwear",
+        "define": "things that people wear on their feet, such as shoes or boots",
+        "IPA": "/ˈfʊtweər/",
+        "vietnames": "giày dép",
+        "type": "noun",
+        "example": "Proper footwear is essential for hiking.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "genre",
+        "define": "a category of artistic composition, as in music or literature, characterized by similarities in form, style, or subject matter",
+        "IPA": "/ˈʒɒnrə/",
+        "vietnames": "thể loại",
+        "type": "noun",
+        "example": "She enjoys reading books in the fantasy genre.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "gymnasium",
+        "define": "a large room or building equipped for physical exercise",
+        "IPA": "/dʒɪmˈneɪziəm/",
+        "vietnames": "phòng thể dục",
+        "type": "noun",
+        "example": "Students have PE classes in the gymnasium.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "healthful",
+        "define": "having or showing good health; promoting good health",
+        "IPA": "/ˈhelθfəl/",
+        "vietnames": "lành mạnh, tốt cho sức khỏe",
+        "type": "adjective",
+        "example": "A healthful diet includes fruits and vegetables.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "hereby",
+        "define": "as a result of this statement or action",
+        "IPA": "/ˌhɪəˈbaɪ/",
+        "vietnames": "bằng cách này, do đó",
+        "type": "adverb",
+        "example": "I hereby declare the meeting open.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "hesitation",
+        "define": "the act of pausing before doing something, often because of uncertainty",
+        "IPA": "/ˌhezɪˈteɪʃən/",
+        "vietnames": "sự do dự",
+        "type": "noun",
+        "example": "After a moment’s hesitation, she agreed to the proposal.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "homemade",
+        "define": "made at home, not bought from a shop",
+        "IPA": "/ˌhəʊmˈmeɪd/",
+        "vietnames": "làm tại nhà",
+        "type": "adjective",
+        "example": "She brought homemade cookies to the party.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "hospitality",
+        "define": "the friendly and generous reception of guests, visitors, or strangers",
+        "IPA": "/ˌhɒspɪˈtæləti/",
+        "vietnames": "lòng hiếu khách",
+        "type": "noun",
+        "example": "We were deeply impressed by the hospitality of the locals.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "incoming",
+        "define": "arriving at or coming to a place or position",
+        "IPA": "/ˈɪnkʌmɪŋ/",
+        "vietnames": "đến, sắp đến",
+        "type": "adjective",
+        "example": "He checked his incoming emails before the meeting.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "induction",
+        "define": "the process of introducing someone to a new job or organization",
+        "IPA": "/ɪnˈdʌkʃən/",
+        "vietnames": "sự giới thiệu, sự cảm ứng",
+        "type": "noun",
+        "example": "New staff members will attend an induction session.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "inefficient",
+        "define": "not achieving maximum productivity; wasting time or resources",
+        "IPA": "/ˌɪnɪˈfɪʃənt/",
+        "vietnames": "không hiệu quả",
+        "type": "adjective",
+        "example": "The current system is inefficient and needs updating.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "inspiration",
+        "define": "a person or thing that motivates or stimulates creativity",
+        "IPA": "/ˌɪnspəˈreɪʃən/",
+        "vietnames": "nguồn cảm hứng",
+        "type": "noun",
+        "example": "The artist found inspiration in nature.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "intently",
+        "define": "with earnest and eager attention",
+        "IPA": "/ɪnˈtentli/",
+        "vietnames": "chăm chú, chú ý",
+        "type": "adverb",
+        "example": "She listened intently to the speaker.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "liter",
+        "define": "a metric unit of capacity, equal to 1,000 cubic centimeters",
+        "IPA": "/ˈliːtər/",
+        "vietnames": "lít",
+        "type": "noun",
+        "example": "He drank a liter of water after the workout.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "mower",
+        "define": "a machine used to cut grass",
+        "IPA": "/ˈməʊər/",
+        "vietnames": "máy cắt cỏ",
+        "type": "noun",
+        "example": "The mower is kept in the garage.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "nutrition",
+        "define": "the process of obtaining the food necessary for health and growth",
+        "IPA": "/njuːˈtrɪʃən/",
+        "vietnames": "dinh dưỡng",
+        "type": "noun",
+        "example": "Good nutrition is essential for children’s development.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "recession",
+        "define": "a period of temporary economic decline",
+        "IPA": "/rɪˈseʃən/",
+        "vietnames": "suy thoái kinh tế",
+        "type": "noun",
+        "example": "The country is experiencing a severe recession.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "resemble",
+        "define": "to be similar or look like",
+        "IPA": "/rɪˈzɛmbl/",
+        "vietnames": "giống với",
+        "type": "verb",
+        "example": "She closely resembles her mother.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "restatement",
+        "define": "the act of expressing something again in a different way",
+        "IPA": "/ˌriːˈsteɪtmənt/",
+        "vietnames": "sự trình bày lại",
+        "type": "noun",
+        "example": "The lawyer made a restatement of the facts.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "sedan",
+        "define": "a car that has four doors and a separate trunk",
+        "IPA": "/sɪˈdæn/",
+        "vietnames": "xe ô tô 4 cửa",
+        "type": "noun",
+        "example": "He bought a new black sedan last month.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "sunscreen",
+        "define": "a cream or lotion used to protect the skin from sunburn",
+        "IPA": "/ˈsʌnskriːn/",
+        "vietnames": "kem chống nắng",
+        "type": "noun",
+        "example": "Don't forget to apply sunscreen before going out.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "timeline",
+        "define": "a representation of events in chronological order",
+        "IPA": "/ˈtaɪmlaɪn/",
+        "vietnames": "dòng thời gian",
+        "type": "noun",
+        "example": "The project timeline spans six months.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "unauthorized",
+        "define": "not having official permission or approval",
+        "IPA": "/ʌnˈɔːθəraɪzd/",
+        "vietnames": "không được phép",
+        "type": "adjective",
+        "example": "Unauthorized access to the building is prohibited.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "unplug",
+        "define": "to remove a plug from a socket",
+        "IPA": "/ʌnˈplʌɡ/",
+        "vietnames": "rút phích cắm",
+        "type": "verb",
+        "example": "Don’t forget to unplug the charger.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "unreliable",
+        "define": "not able to be trusted or depended on",
+        "IPA": "/ˌʌnrɪˈlaɪəbl/",
+        "vietnames": "không đáng tin cậy",
+        "type": "adjective",
+        "example": "He is unreliable when it comes to meeting deadlines.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "video conference",
+        "define": "a meeting held over the internet using video technology",
+        "IPA": "/ˈvɪdiəʊ ˈkɒnfərəns/",
+        "vietnames": "hội nghị truyền hình",
+        "type": "noun",
+        "example": "We have a video conference with the team in Japan.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "violate",
+        "define": "to break or act against something, especially a law or rule",
+        "IPA": "/ˈvaɪəleɪt/",
+        "vietnames": "vi phạm",
+        "type": "verb",
+        "example": "They were punished for violating the company policy.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "wellness",
+        "define": "the state of being in good health",
+        "IPA": "/ˈwelnəs/",
+        "vietnames": "sức khỏe toàn diện",
+        "type": "noun",
+        "example": "The company offers a wellness program for employees.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "workbook",
+        "define": "a book containing problems and exercises that a student can work on",
+        "IPA": "/ˈwɜːkbʊk/",
+        "vietnames": "sách bài tập",
+        "type": "noun",
+        "example": "The teacher asked us to complete pages 20–25 in our workbook.",
+        "status": "remember"
+      }
+    ]
+  },
+  {
+    "id": "22",
+    "vocabularies": [
+      {
+        "vocabulary": "abide",
+        "define": "to accept or act in accordance with a rule, decision, or recommendation",
+        "IPA": "/əˈbaɪd/",
+        "vietnames": "tuân theo, chịu đựng",
+        "type": "verb",
+        "example": "You must abide by the rules of the game.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "actively",
+        "define": "in a way that involves doing something; with action",
+        "IPA": "/ˈæktɪvli/",
+        "vietnames": "một cách tích cực",
+        "type": "adverb",
+        "example": "She is actively involved in community service.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "allergy",
+        "define": "a medical condition that causes someone to become sick after eating, touching, or breathing something that is harmless to most people",
+        "IPA": "/ˈælədʒi/",
+        "vietnames": "dị ứng",
+        "type": "noun",
+        "example": "He has a peanut allergy.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "apprehensive",
+        "define": "anxious or fearful that something bad or unpleasant will happen",
+        "IPA": "/ˌæprɪˈhensɪv/",
+        "vietnames": "lo lắng, sợ hãi",
+        "type": "adjective",
+        "example": "She felt apprehensive about the exam.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "automotive",
+        "define": "relating to cars or other vehicles",
+        "IPA": "/ˌɔːtəˈməʊtɪv/",
+        "vietnames": "thuộc về ô tô",
+        "type": "adjective",
+        "example": "He works in the automotive industry.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "bacteria",
+        "define": "microscopic living organisms, usually one-celled, that can be found everywhere",
+        "IPA": "/bækˈtɪəriə/",
+        "vietnames": "vi khuẩn",
+        "type": "noun",
+        "example": "Bacteria can cause infections.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "broaden",
+        "define": "to make something wider or more general",
+        "IPA": "/ˈbrɔːdən/",
+        "vietnames": "mở rộng",
+        "type": "verb",
+        "example": "Traveling can broaden your horizons.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "bulb",
+        "define": "a glass part of an electric lamp, which gives light when electricity passes through it",
+        "IPA": "/bʌlb/",
+        "vietnames": "bóng đèn",
+        "type": "noun",
+        "example": "I need to replace the light bulb.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "by-law",
+        "define": "a rule made by a company or society to control the actions of its members",
+        "IPA": "/ˈbaɪ.lɔː/",
+        "vietnames": "quy định, luật lệ",
+        "type": "noun",
+        "example": "The by-laws prohibit smoking in the building.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "lifeguard",
+        "define": "a person employed to rescue people who get into difficulty in a swimming pool or at the beach",
+        "IPA": "/ˈlaɪfɡɑːd/",
+        "vietnames": "nhân viên cứu hộ",
+        "type": "noun",
+        "example": "The lifeguard saved a swimmer from drowning.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "modem",
+        "define": "a device that allows a computer to connect to the internet",
+        "IPA": "/ˈməʊdəm/",
+        "vietnames": "thiết bị kết nối mạng",
+        "type": "noun",
+        "example": "The modem stopped working after the power outage.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "monument",
+        "define": "a structure built to honor a person or event",
+        "IPA": "/ˈmɒnjumənt/",
+        "vietnames": "tượng đài, đài tưởng niệm",
+        "type": "noun",
+        "example": "The Lincoln Memorial is a famous monument in Washington, D.C.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "mosquito",
+        "define": "a small flying insect that bites and sucks blood",
+        "IPA": "/məˈskiːtəʊ/",
+        "vietnames": "muỗi",
+        "type": "noun",
+        "example": "She was bitten by a mosquito while camping.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "obligate",
+        "define": "to compel legally or morally",
+        "IPA": "/ˈɒblɪɡeɪt/",
+        "vietnames": "bắt buộc",
+        "type": "verb",
+        "example": "The law obligates employers to pay a minimum wage.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "oblige",
+        "define": "to do something as a favor or because of a rule",
+        "IPA": "/əˈblaɪdʒ/",
+        "vietnames": "bắt buộc, giúp đỡ",
+        "type": "verb",
+        "example": "I’m obliged to help my friends when they’re in trouble.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "occurrence",
+        "define": "an event or incident",
+        "IPA": "/əˈkʌrəns/",
+        "vietnames": "sự việc, sự kiện xảy ra",
+        "type": "noun",
+        "example": "Rain is a common occurrence in April.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "operational",
+        "define": "working or ready to work",
+        "IPA": "/ˌɒpəˈreɪʃənəl/",
+        "vietnames": "sẵn sàng hoạt động",
+        "type": "adjective",
+        "example": "The elevator is now fully operational.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "outage",
+        "define": "a period when a service is not available",
+        "IPA": "/ˈaʊtɪdʒ/",
+        "vietnames": "mất điện, gián đoạn dịch vụ",
+        "type": "noun",
+        "example": "There was a power outage last night.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "overcrowd",
+        "define": "to fill beyond what is comfortable or safe",
+        "IPA": "/ˌəʊvəˈkraʊd/",
+        "vietnames": "quá đông, chen chúc",
+        "type": "verb",
+        "example": "The concert hall was overcrowded with fans.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "paralegal",
+        "define": "a person trained to assist lawyers",
+        "IPA": "/ˌpærəˈliːɡəl/",
+        "vietnames": "trợ lý pháp lý",
+        "type": "noun",
+        "example": "She works as a paralegal at a law firm.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "partially",
+        "define": "not completely",
+        "IPA": "/ˈpɑːʃəli/",
+        "vietnames": "một phần",
+        "type": "adverb",
+        "example": "The road was partially blocked by fallen trees.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "pepper",
+        "define": "a spicy vegetable or a ground spice made from dried peppercorns",
+        "IPA": "/ˈpepə(r)/",
+        "vietnames": "ớt, hạt tiêu",
+        "type": "noun",
+        "example": "He added black pepper to the soup.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "permanently",
+        "define": "in a way that lasts or remains unchanged indefinitely",
+        "IPA": "/ˈpɜːmənəntli/",
+        "vietnames": "vĩnh viễn",
+        "type": "adverb",
+        "example": "The store closed permanently last year.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "plow",
+        "define": "to turn over soil using a large farming tool or machine",
+        "IPA": "/plaʊ/",
+        "vietnames": "cày ruộng",
+        "type": "verb",
+        "example": "Farmers plow their fields in spring.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "query",
+        "define": "a question, especially one expressing doubt",
+        "IPA": "/ˈkwɪəri/",
+        "vietnames": "câu hỏi, thắc mắc",
+        "type": "noun",
+        "example": "She raised a query about the report’s accuracy.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "railway",
+        "define": "a track with rails on which trains run",
+        "IPA": "/ˈreɪlweɪ/",
+        "vietnames": "đường sắt",
+        "type": "noun",
+        "example": "The railway connects the two cities.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "raincoat",
+        "define": "a waterproof coat worn in the rain",
+        "IPA": "/ˈreɪnkəʊt/",
+        "vietnames": "áo mưa",
+        "type": "noun",
+        "example": "Don’t forget your raincoat — it’s going to rain!",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "reconsider",
+        "define": "to think about something again",
+        "IPA": "/ˌriːkənˈsɪdə(r)/",
+        "vietnames": "xem xét lại",
+        "type": "verb",
+        "example": "You should reconsider your decision.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "redesign",
+        "define": "to change the design of something",
+        "IPA": "/ˌriːdɪˈzaɪn/",
+        "vietnames": "thiết kế lại",
+        "type": "verb",
+        "example": "They plan to redesign the company logo.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "rehearsal",
+        "define": "a practice for a performance",
+        "IPA": "/rɪˈhɜːsl/",
+        "vietnames": "buổi diễn tập",
+        "type": "noun",
+        "example": "We have rehearsal every evening before the play.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "relaxation",
+        "define": "the state of being free from tension and anxiety",
+        "IPA": "/ˌriːlækˈseɪʃən/",
+        "vietnames": "sự thư giãn",
+        "type": "noun",
+        "example": "She listens to music for relaxation.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "repetition",
+        "define": "the action of repeating something",
+        "IPA": "/ˌrepəˈtɪʃən/",
+        "vietnames": "sự lặp lại",
+        "type": "noun",
+        "example": "Language learning requires a lot of repetition.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "retreat",
+        "define": "a quiet or secluded place for rest and relaxation",
+        "IPA": "/rɪˈtriːt/",
+        "vietnames": "nơi ẩn dật, nghỉ dưỡng",
+        "type": "noun",
+        "example": "They spent the weekend at a mountain retreat.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "salon",
+        "define": "a place where people go to have their hair or nails done",
+        "IPA": "/ˈsælɒn/",
+        "vietnames": "tiệm làm đẹp",
+        "type": "noun",
+        "example": "She owns a hair salon downtown.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "satellite office",
+        "define": "a branch office located away from the main office",
+        "IPA": "/ˈsætəlaɪt ˈɒfɪs/",
+        "vietnames": "văn phòng chi nhánh",
+        "type": "noun",
+        "example": "They opened a satellite office in Hanoi.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "scenery",
+        "define": "the natural features of a landscape",
+        "IPA": "/ˈsiːnəri/",
+        "vietnames": "phong cảnh",
+        "type": "noun",
+        "example": "The scenery in Sapa is breathtaking.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "serial",
+        "define": "a story or play appearing in regular installments",
+        "IPA": "/ˈsɪəriəl/",
+        "vietnames": "phim/truyện dài tập",
+        "type": "noun",
+        "example": "She follows a popular drama serial on TV.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "sew",
+        "define": "to join or repair something with a needle and thread",
+        "IPA": "/səʊ/",
+        "vietnames": "may vá",
+        "type": "verb",
+        "example": "She sewed a button on his shirt.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "sketch",
+        "define": "a simple drawing",
+        "IPA": "/sketʃ/",
+        "vietnames": "bản phác thảo",
+        "type": "noun",
+        "example": "He made a quick sketch of the scene.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "soar",
+        "define": "to rise quickly and dramatically",
+        "IPA": "/sɔːr/",
+        "vietnames": "tăng vọt, bay cao",
+        "type": "verb",
+        "example": "The temperature soared to 40°C.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "stimulus",
+        "define": "something that causes a response or reaction",
+        "IPA": "/ˈstɪmjələs/",
+        "vietnames": "sự kích thích",
+        "type": "noun",
+        "example": "Light is a stimulus for plants to grow.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "stockbroker",
+        "define": "a person who buys and sells stocks for others",
+        "IPA": "/ˈstɒkˌbrəʊkə(r)/",
+        "vietnames": "nhân viên môi giới chứng khoán",
+        "type": "noun",
+        "example": "He works as a stockbroker in a finance firm.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "tablecloth",
+        "define": "a cloth used to cover a table",
+        "IPA": "/ˈteɪblklɒθ/",
+        "vietnames": "khăn trải bàn",
+        "type": "noun",
+        "example": "She spread a white tablecloth before dinner.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "thirsty",
+        "define": "feeling a need to drink something",
+        "IPA": "/ˈθɜːsti/",
+        "vietnames": "khát nước",
+        "type": "adjective",
+        "example": "I’m really thirsty after jogging.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "thrill",
+        "define": "a sudden strong feeling of excitement",
+        "IPA": "/θrɪl/",
+        "vietnames": "sự rộn ràng, hưng phấn",
+        "type": "noun",
+        "example": "He felt a thrill when the plane took off.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "tile",
+        "define": "a flat, usually square piece used for covering floors or walls",
+        "IPA": "/taɪl/",
+        "vietnames": "gạch lát",
+        "type": "noun",
+        "example": "The bathroom floor is made of ceramic tiles.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "toiletry",
+        "define": "personal care items used for grooming",
+        "IPA": "/ˈtɔɪlətri/",
+        "vietnames": "đồ dùng vệ sinh cá nhân",
+        "type": "noun",
+        "example": "Don’t forget to pack your toiletries for the trip.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "trademark",
+        "define": "a symbol or word legally registered to represent a company",
+        "IPA": "/ˈtreɪdmɑːk/",
+        "vietnames": "nhãn hiệu đã đăng ký",
+        "type": "noun",
+        "example": "Nike’s swoosh is a well-known trademark.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "tropical",
+        "define": "relating to or found in the tropics",
+        "IPA": "/ˈtrɒpɪkl/",
+        "vietnames": "nhiệt đới",
+        "type": "adjective",
+        "example": "They went on vacation to a tropical island.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "tuna",
+        "define": "a large sea fish used as food",
+        "IPA": "/ˈtjuːnə/",
+        "vietnames": "cá ngừ",
+        "type": "noun",
+        "example": "She made a sandwich with canned tuna.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "unemployed",
+        "define": "not having a job",
+        "IPA": "/ˌʌnɪmˈplɔɪd/",
+        "vietnames": "thất nghiệp",
+        "type": "adjective",
+        "example": "He’s been unemployed for three months.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "validate",
+        "define": "to confirm or prove something is true or correct",
+        "IPA": "/ˈvælɪdeɪt/",
+        "vietnames": "xác nhận, chứng thực",
+        "type": "verb",
+        "example": "Please validate your parking ticket at the machine.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "vanilla",
+        "define": "a flavoring derived from orchids of the genus Vanilla",
+        "IPA": "/vəˈnɪlə/",
+        "vietnames": "vani",
+        "type": "noun",
+        "example": "She ordered a scoop of vanilla ice cream.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "willingness",
+        "define": "the quality of being ready to do something",
+        "IPA": "/ˈwɪlɪŋnəs/",
+        "vietnames": "sự sẵn lòng",
+        "type": "noun",
+        "example": "Her willingness to help others is admirable.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "wristwatch",
+        "define": "a small watch worn on the wrist",
+        "IPA": "/ˈrɪstwɒtʃ/",
+        "vietnames": "đồng hồ đeo tay",
+        "type": "noun",
+        "example": "He looked at his wristwatch and hurried out.",
+        "status": "remember"
+      }
+    ]
+  },
+  {
+    "id": "21",
+    "vocabularies": [
+      {
+        "vocabulary": "accuracy",
+        "define": "the quality or state of being correct or precise",
+        "IPA": "/ˈækjʊrəsi/",
+        "vietnames": "sự chính xác",
+        "type": "noun",
+        "example": "The accuracy of the report was questioned.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "anyhow",
+        "define": "in any case; anyway",
+        "IPA": "/ˈenihaʊ/",
+        "vietnames": "dù sao đi nữa",
+        "type": "adverb",
+        "example": "I didn't like it, but I bought it anyhow.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "appetizer",
+        "define": "a small dish served before the main part of a meal",
+        "IPA": "/ˈæpɪtaɪzər/",
+        "vietnames": "món khai vị",
+        "type": "noun",
+        "example": "We had spring rolls as an appetizer.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "arc",
+        "define": "a part of the circumference of a circle or other curve",
+        "IPA": "/ɑːrk/",
+        "vietnames": "cung (hình học)",
+        "type": "noun",
+        "example": "The rainbow formed a beautiful arc across the sky.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "audition",
+        "define": "a short performance to show the talents of someone (such as an actor or musician)",
+        "IPA": "/ɔːˈdɪʃən/",
+        "vietnames": "buổi thử giọng, thử vai",
+        "type": "noun",
+        "example": "She has an audition for the lead role in the play.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "backpack",
+        "define": "a bag with shoulder straps carried on the back",
+        "IPA": "/ˈbækpæk/",
+        "vietnames": "ba lô",
+        "type": "noun",
+        "example": "He carried his books in a backpack.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "ballroom",
+        "define": "a large room used for dancing",
+        "IPA": "/ˈbɔːlruːm/",
+        "vietnames": "phòng khiêu vũ",
+        "type": "noun",
+        "example": "The wedding reception was held in the grand ballroom.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "beneficial",
+        "define": "producing good or helpful results or effects",
+        "IPA": "/ˌbenɪˈfɪʃl/",
+        "vietnames": "có lợi, có ích",
+        "type": "adjective",
+        "example": "Regular exercise is beneficial to health.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "biography",
+        "define": "an account of someone's life written by someone else",
+        "IPA": "/baɪˈɒɡrəfi/",
+        "vietnames": "tiểu sử",
+        "type": "noun",
+        "example": "She wrote a biography of the famous artist.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "bound",
+        "define": "certain or likely to happen; destined",
+        "IPA": "/baʊnd/",
+        "vietnames": "chắc chắn, nhất định",
+        "type": "adjective",
+        "example": "They are bound to succeed with such a great team.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "broom",
+        "define": "a brush with a long handle used for sweeping floors",
+        "IPA": "/bruːm/",
+        "vietnames": "cây chổi",
+        "type": "noun",
+        "example": "She grabbed a broom and started sweeping.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "cheeseburger",
+        "define": "a hamburger with a slice of cheese on it",
+        "IPA": "/ˈtʃiːzbɜːɡə(r)/",
+        "vietnames": "bánh mì kẹp phô mai",
+        "type": "noun",
+        "example": "I’d like a cheeseburger and fries, please.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "chilly",
+        "define": "unpleasantly cold",
+        "IPA": "/ˈtʃɪli/",
+        "vietnames": "lạnh lẽo",
+        "type": "adjective",
+        "example": "It was a chilly morning in the mountains.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "circus",
+        "define": "a traveling show with clowns, animals, and acrobats",
+        "IPA": "/ˈsɜːkəs/",
+        "vietnames": "gánh xiếc",
+        "type": "noun",
+        "example": "We took the kids to see the circus.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "compliment",
+        "define": "a polite expression of praise or admiration",
+        "IPA": "/ˈkɒmplɪmənt/",
+        "vietnames": "lời khen",
+        "type": "noun",
+        "example": "She received many compliments on her outfit.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "consignment",
+        "define": "a batch of goods delivered for sale or disposal",
+        "IPA": "/kənˈsaɪnmənt/",
+        "vietnames": "lô hàng gửi",
+        "type": "noun",
+        "example": "The store received a new consignment of shoes.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "continental",
+        "define": "relating to a continent, especially mainland Europe",
+        "IPA": "/ˌkɒntɪˈnentl/",
+        "vietnames": "thuộc về lục địa",
+        "type": "adjective",
+        "example": "He prefers a continental breakfast.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "copyright",
+        "define": "the legal right to control the use of original works",
+        "IPA": "/ˈkɒpiraɪt/",
+        "vietnames": "bản quyền",
+        "type": "noun",
+        "example": "This song is protected by copyright.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "countryside",
+        "define": "land outside towns and cities, with fields and farms",
+        "IPA": "/ˈkʌntrisaɪd/",
+        "vietnames": "vùng nông thôn",
+        "type": "noun",
+        "example": "They went for a walk in the countryside.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "demolish",
+        "define": "to completely destroy a building or structure",
+        "IPA": "/dɪˈmɒlɪʃ/",
+        "vietnames": "phá hủy",
+        "type": "verb",
+        "example": "The building was demolished to make way for a mall.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "departmental",
+        "define": "relating to a department of a large organization",
+        "IPA": "/ˌdɪˌpɑːtˈmentl/",
+        "vietnames": "thuộc về phòng ban",
+        "type": "adjective",
+        "example": "They held a departmental meeting every Monday.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "desperate",
+        "define": "feeling, showing, or involving a hopeless sense that a situation is so bad as to be impossible to deal with",
+        "IPA": "/ˈdespərət/",
+        "vietnames": "tuyệt vọng, liều lĩnh",
+        "type": "adjective",
+        "example": "He was desperate for a job.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "devastate",
+        "define": "to destroy or ruin something completely",
+        "IPA": "/ˈdevəsteɪt/",
+        "vietnames": "tàn phá, phá hủy",
+        "type": "verb",
+        "example": "The hurricane devastated the entire village.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "diagnostic",
+        "define": "used to identify a condition, problem, or illness",
+        "IPA": "/ˌdaɪəɡˈnɒstɪk/",
+        "vietnames": "chuẩn đoán",
+        "type": "adjective",
+        "example": "The doctor ordered diagnostic tests.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "diagram",
+        "define": "a simplified drawing showing the structure or workings of something",
+        "IPA": "/ˈdaɪəɡræm/",
+        "vietnames": "biểu đồ, sơ đồ",
+        "type": "noun",
+        "example": "The teacher drew a diagram on the board.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "diamond",
+        "define": "a precious stone that is the hardest natural substance",
+        "IPA": "/ˈdaɪəmənd/",
+        "vietnames": "kim cương",
+        "type": "noun",
+        "example": "She wore a diamond ring on her finger.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "disable",
+        "define": "to make unable to work or function",
+        "IPA": "/dɪsˈeɪbl/",
+        "vietnames": "làm tê liệt, vô hiệu hóa",
+        "type": "verb",
+        "example": "The virus disabled the computer system.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "disgust",
+        "define": "a strong feeling of dislike or disapproval",
+        "IPA": "/dɪsˈɡʌst/",
+        "vietnames": "sự ghê tởm, kinh tởm",
+        "type": "noun",
+        "example": "He looked at the mess with disgust.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "donut",
+        "define": "a small fried cake of sweetened dough, typically in the shape of a ring",
+        "IPA": "/ˈdəʊnʌt/",
+        "vietnames": "bánh vòng",
+        "type": "noun",
+        "example": "She bought a box of donuts for the office.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "doorman",
+        "define": "a person whose job is to open the door and assist people entering a building",
+        "IPA": "/ˈdɔːmən/",
+        "vietnames": "người gác cửa",
+        "type": "noun",
+        "example": "The doorman greeted guests at the hotel entrance.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "electronically",
+        "define": "by means of electronic equipment or devices",
+        "IPA": "/ɪˌlekˈtrɒnɪkli/",
+        "vietnames": "một cách điện tử",
+        "type": "adverb",
+        "example": "You can submit the form electronically.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "elevate",
+        "define": "to lift up or raise to a higher position",
+        "IPA": "/ˈelɪveɪt/",
+        "vietnames": "nâng lên",
+        "type": "verb",
+        "example": "She elevated her leg to reduce the swelling.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "engagement",
+        "define": "an arrangement to do something or go somewhere at a fixed time",
+        "IPA": "/ɪnˈɡeɪdʒmənt/",
+        "vietnames": "cuộc hẹn, sự đính hôn",
+        "type": "noun",
+        "example": "He has a business engagement at 3 PM.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "enrollment",
+        "define": "the act of registering or joining something",
+        "IPA": "/ɪnˈrəʊlmənt/",
+        "vietnames": "sự ghi danh",
+        "type": "noun",
+        "example": "Enrollment in the course is now open.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "euro",
+        "define": "the official currency of the eurozone",
+        "IPA": "/ˈjʊərəʊ/",
+        "vietnames": "đồng euro",
+        "type": "noun",
+        "example": "The price is 20 euros.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "forbid",
+        "define": "to order someone not to do something",
+        "IPA": "/fəˈbɪd/",
+        "vietnames": "cấm",
+        "type": "verb",
+        "example": "Smoking is strictly forbidden here.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "fork",
+        "define": "a tool with two or more prongs used for eating or serving food",
+        "IPA": "/fɔːk/",
+        "vietnames": "cái nĩa",
+        "type": "noun",
+        "example": "She ate the salad with a fork.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "foster",
+        "define": "to encourage or promote development",
+        "IPA": "/ˈfɒstə(r)/",
+        "vietnames": "thúc đẩy, nuôi dưỡng",
+        "type": "verb",
+        "example": "The program aims to foster creativity.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "getaway",
+        "define": "a short vacation",
+        "IPA": "/ˈɡetəweɪ/",
+        "vietnames": "kỳ nghỉ ngắn",
+        "type": "noun",
+        "example": "We planned a weekend getaway in Da Lat.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "gossip",
+        "define": "casual conversation about other people's private lives",
+        "IPA": "/ˈɡɒsɪp/",
+        "vietnames": "chuyện phiếm, buôn chuyện",
+        "type": "noun",
+        "example": "She enjoys reading celebrity gossip.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "hacker",
+        "define": "a person who gains unauthorized access to data",
+        "IPA": "/ˈhækə(r)/",
+        "vietnames": "tin tặc",
+        "type": "noun",
+        "example": "The hacker broke into their computer system.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "hardworking",
+        "define": "putting a lot of effort into work",
+        "IPA": "/ˌhɑːdˈwɜːkɪŋ/",
+        "vietnames": "chăm chỉ",
+        "type": "adjective",
+        "example": "She’s a hardworking student.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "impatient",
+        "define": "having no patience; easily annoyed by waiting",
+        "IPA": "/ɪmˈpeɪʃnt/",
+        "vietnames": "thiếu kiên nhẫn",
+        "type": "adjective",
+        "example": "He gets impatient when things move slowly.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "indirect",
+        "define": "not direct or straightforward",
+        "IPA": "/ˌɪndəˈrekt/",
+        "vietnames": "gián tiếp",
+        "type": "adjective",
+        "example": "She gave an indirect answer to the question.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "interpreter",
+        "define": "someone who translates spoken language",
+        "IPA": "/ɪnˈtɜːprɪtə(r)/",
+        "vietnames": "phiên dịch viên",
+        "type": "noun",
+        "example": "They hired an interpreter for the meeting.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "intersection",
+        "define": "a place where two or more roads meet",
+        "IPA": "/ˌɪntəˈsekʃən/",
+        "vietnames": "ngã tư, điểm giao nhau",
+        "type": "noun",
+        "example": "Turn left at the next intersection.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "irrelevant",
+        "define": "not related to the subject",
+        "IPA": "/ɪˈreləvənt/",
+        "vietnames": "không liên quan",
+        "type": "adjective",
+        "example": "That comment was irrelevant to the discussion.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "jeans",
+        "define": "denim pants typically worn casually",
+        "IPA": "/dʒiːnz/",
+        "vietnames": "quần jean",
+        "type": "noun",
+        "example": "He wore a t-shirt and jeans.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "journalism",
+        "define": "the activity of reporting news",
+        "IPA": "/ˈdʒɜːnəlɪzəm/",
+        "vietnames": "ngành báo chí",
+        "type": "noun",
+        "example": "She studied journalism in university.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "letterhead",
+        "define": "the printed heading at the top of a letter",
+        "IPA": "/ˈletəhed/",
+        "vietnames": "giấy có tiêu đề công ty",
+        "type": "noun",
+        "example": "The invoice was printed on official letterhead.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "volleyball",
+        "define": "a game in which two teams hit a ball over a net",
+        "IPA": "/ˈvɒlibɔːl/",
+        "vietnames": "bóng chuyền",
+        "type": "noun",
+        "example": "They played volleyball on the beach.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "wheelchair",
+        "define": "a chair with wheels used by people who cannot walk",
+        "IPA": "/ˈwiːltʃeə(r)/",
+        "vietnames": "xe lăn",
+        "type": "noun",
+        "example": "He needs a wheelchair to move around.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "whoever",
+        "define": "the person or people who; no matter who",
+        "IPA": "/huːˈevə(r)/",
+        "vietnames": "bất cứ ai",
+        "type": "pronoun",
+        "example": "Whoever finishes first wins a prize.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "wool",
+        "define": "the soft hair from sheep used for making clothes",
+        "IPA": "/wʊl/",
+        "vietnames": "len",
+        "type": "noun",
+        "example": "This scarf is made of pure wool.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "wrinkle",
+        "define": "a small line or fold in the skin or fabric",
+        "IPA": "/ˈrɪŋkl/",
+        "vietnames": "nếp nhăn",
+        "type": "noun",
+        "example": "She has a few wrinkles around her eyes.",
+        "status": "remember"
+      }
+    ]
+  },
+  {
+    "id": "20",
+    "vocabularies": [
+      {
+        "vocabulary": "compliance",
+        "define": "the act of obeying a law or rule, especially one that controls a particular industry or type of work",
+        "IPA": "/kəmˈplaɪəns/",
+        "vietnames": "sự tuân thủ",
+        "type": "noun",
+        "example": "The company ensures compliance with safety regulations.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "contraction",
+        "define": "a shortened form of a word or group of words, with the omitted letters often replaced in written English by an apostrophe",
+        "IPA": "/kənˈtrækʃən/",
+        "vietnames": "sự co lại; dạng rút gọn",
+        "type": "noun",
+        "example": "‘Don't’ is a contraction of ‘do not’.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "cookbook",
+        "define": "a book that explains how to prepare particular dishes",
+        "IPA": "/ˈkʊk.bʊk/",
+        "vietnames": "sách nấu ăn",
+        "type": "noun",
+        "example": "She bought a new cookbook to try out different recipes.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "cushion",
+        "define": "a bag made of cloth, plastic, or leather that is filled with soft material, often has an attractive cover, and is used especially on chairs for sitting or leaning on",
+        "IPA": "/ˈkʊʃ.ən/",
+        "vietnames": "gối đệm",
+        "type": "noun",
+        "example": "She placed a cushion on the chair for added comfort.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "dose",
+        "define": "a measured amount of something such as medicine",
+        "IPA": "/dəʊs/",
+        "vietnames": "liều lượng",
+        "type": "noun",
+        "example": "Take one dose of the medicine every six hours.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "drum",
+        "define": "a musical instrument, especially one made from a skin stretched over the end of a hollow tube or bowl, played by hitting with the hand or a stick",
+        "IPA": "/drʌm/",
+        "vietnames": "trống",
+        "type": "noun",
+        "example": "He played the drum in the school band.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "embed",
+        "define": "to fix something firmly into a substance",
+        "IPA": "/ɪmˈbed/",
+        "vietnames": "gắn vào, nhúng vào",
+        "type": "verb",
+        "example": "The journalist embedded the video into the article.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "evacuate",
+        "define": "to move people from a dangerous place to somewhere safe",
+        "IPA": "/ɪˈvæk.ju.eɪt/",
+        "vietnames": "sơ tán",
+        "type": "verb",
+        "example": "Residents were evacuated due to the approaching hurricane.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "expedite",
+        "define": "to make something happen more quickly",
+        "IPA": "/ˈek.spə.daɪt/",
+        "vietnames": "xúc tiến, đẩy nhanh",
+        "type": "verb",
+        "example": "We need to expedite the processing of these documents.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "extinguisher",
+        "define": "a device that sprays water or chemicals to put out fires",
+        "IPA": "/ɪkˈstɪŋ.ɡwɪ.ʃər/",
+        "vietnames": "bình chữa cháy",
+        "type": "noun",
+        "example": "Ensure the fire extinguisher is easily accessible.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "familiarity",
+        "define": "close acquaintance with or knowledge of something",
+        "IPA": "/fəˌmɪl.iˈær.ə.ti/",
+        "vietnames": "sự quen thuộc",
+        "type": "noun",
+        "example": "His familiarity with the software helped speed up the project.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "flaw",
+        "define": "a fault or weakness that makes something less effective or perfect",
+        "IPA": "/flɔː/",
+        "vietnames": "khiếm khuyết, sai sót",
+        "type": "noun",
+        "example": "There's a flaw in your reasoning.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "fluctuate",
+        "define": "to change frequently in size, amount, or quality",
+        "IPA": "/ˈflʌk.tʃu.eɪt/",
+        "vietnames": "dao động, biến động",
+        "type": "verb",
+        "example": "Prices fluctuate depending on supply and demand.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "fluent",
+        "define": "able to express oneself easily and clearly, especially in a foreign language",
+        "IPA": "/ˈfluː.ənt/",
+        "vietnames": "trôi chảy",
+        "type": "adjective",
+        "example": "She’s fluent in three languages.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "honestly",
+        "define": "in a truthful, sincere way",
+        "IPA": "/ˈɒn.ɪst.li/",
+        "vietnames": "một cách trung thực",
+        "type": "adverb",
+        "example": "Honestly, I didn’t expect to win.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "housekeep",
+        "define": "to manage the cleaning and maintenance of a house or building",
+        "IPA": "/ˈhaʊskiːp/",
+        "vietnames": "trông nom nhà cửa",
+        "type": "verb",
+        "example": "She housekeeps for an elderly couple in town.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "hurricane",
+        "define": "a violent storm with very strong winds and heavy rain",
+        "IPA": "/ˈhʌr.ɪ.kən/",
+        "vietnames": "bão (ở Đại Tây Dương)",
+        "type": "noun",
+        "example": "The hurricane caused widespread damage.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "hygiene",
+        "define": "conditions and practices that help to maintain health and prevent disease",
+        "IPA": "/ˈhaɪ.dʒiːn/",
+        "vietnames": "vệ sinh",
+        "type": "noun",
+        "example": "Good personal hygiene is essential for good health.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "integral",
+        "define": "necessary and important as a part of a whole",
+        "IPA": "/ˈɪn.tɪ.ɡrəl/",
+        "vietnames": "thiết yếu, không thể thiếu",
+        "type": "adjective",
+        "example": "He’s an integral part of the team.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "interactive",
+        "define": "allowing communication between people and technology",
+        "IPA": "/ˌɪn.təˈræk.tɪv/",
+        "vietnames": "tương tác",
+        "type": "adjective",
+        "example": "The museum has many interactive displays for children.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "interfere",
+        "define": "to get involved in a situation where you are not wanted or needed",
+        "IPA": "/ˌɪntəˈfɪə(r)/",
+        "vietnames": "can thiệp",
+        "type": "verb",
+        "example": "I wish you wouldn’t interfere in my personal life.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "kilogram",
+        "define": "a unit of mass equal to 1,000 grams",
+        "IPA": "/ˈkɪləɡræm/",
+        "vietnames": "kilôgam",
+        "type": "noun",
+        "example": "This bag of rice weighs five kilograms.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "layoff",
+        "define": "a period when someone is not working because their job has ended or been suspended",
+        "IPA": "/ˈleɪɒf/",
+        "vietnames": "sự sa thải tạm thời",
+        "type": "noun",
+        "example": "The company announced a round of layoffs.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "lightweight",
+        "define": "not heavy; easy to carry or move",
+        "IPA": "/ˈlaɪt.weɪt/",
+        "vietnames": "nhẹ",
+        "type": "adjective",
+        "example": "This jacket is warm yet lightweight.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "merit",
+        "define": "the quality of being good, important, or useful",
+        "IPA": "/ˈmerɪt/",
+        "vietnames": "giá trị, công lao, xứng đáng",
+        "type": "noun",
+        "example": "The plan has some merit and should be considered.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "necklace",
+        "define": "a piece of jewelry worn around the neck",
+        "IPA": "/ˈnek.ləs/",
+        "vietnames": "vòng cổ",
+        "type": "noun",
+        "example": "She wore a gold necklace to the party.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "needy",
+        "define": "lacking the necessities of life; very poor",
+        "IPA": "/ˈniː.di/",
+        "vietnames": "nghèo túng, thiếu thốn",
+        "type": "adjective",
+        "example": "They donated clothes to needy families.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "overpay",
+        "define": "to pay someone too much money",
+        "IPA": "/ˌəʊvəˈpeɪ/",
+        "vietnames": "trả thừa tiền",
+        "type": "verb",
+        "example": "You overpaid for that car.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "pamphlet",
+        "define": "a small booklet containing information or arguments",
+        "IPA": "/ˈpæm.flət/",
+        "vietnames": "tờ rơi, sách mỏng",
+        "type": "noun",
+        "example": "I picked up a pamphlet on healthy eating.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "partial",
+        "define": "not complete or total",
+        "IPA": "/ˈpɑːʃl/",
+        "vietnames": "một phần",
+        "type": "adjective",
+        "example": "They only achieved partial success.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "penalize",
+        "define": "to punish someone for breaking a rule or law",
+        "IPA": "/ˈpiː.nəl.aɪz/",
+        "vietnames": "xử phạt",
+        "type": "verb",
+        "example": "The player was penalized for a foul.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "pollute",
+        "define": "to make air, water, or land dirty and not safe",
+        "IPA": "/pəˈluːt/",
+        "vietnames": "gây ô nhiễm",
+        "type": "verb",
+        "example": "Factories that pollute the environment must be controlled.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "prescribe",
+        "define": "to officially tell someone to take a medicine or treatment",
+        "IPA": "/prɪˈskraɪb/",
+        "vietnames": "kê đơn",
+        "type": "verb",
+        "example": "The doctor prescribed antibiotics for the infection.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "probable",
+        "define": "likely to happen or be true",
+        "IPA": "/ˈprɒbəbl/",
+        "vietnames": "có khả năng xảy ra",
+        "type": "adjective",
+        "example": "Rain is probable this evening.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "prominent",
+        "define": "important or well-known",
+        "IPA": "/ˈprɒmɪnənt/",
+        "vietnames": "nổi bật, quan trọng",
+        "type": "adjective",
+        "example": "She is a prominent scientist in the field.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "rainfall",
+        "define": "the amount of rain that falls in a particular area",
+        "IPA": "/ˈreɪnfɔːl/",
+        "vietnames": "lượng mưa",
+        "type": "noun",
+        "example": "This area has high annual rainfall.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "relocation",
+        "define": "the act of moving to a new place",
+        "IPA": "/ˌriːləʊˈkeɪʃn/",
+        "vietnames": "sự di dời",
+        "type": "noun",
+        "example": "The company offered financial support for relocation.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "residence",
+        "define": "a place where someone lives",
+        "IPA": "/ˈrezɪdəns/",
+        "vietnames": "nơi cư trú",
+        "type": "noun",
+        "example": "They applied for permanent residence in Canada.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "retrieve",
+        "define": "to get something back",
+        "IPA": "/rɪˈtriːv/",
+        "vietnames": "lấy lại, khôi phục",
+        "type": "verb",
+        "example": "The police retrieved the stolen painting.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "rider",
+        "define": "a person who rides a bicycle, motorcycle, or horse",
+        "IPA": "/ˈraɪdə(r)/",
+        "vietnames": "người cưỡi (xe, ngựa)",
+        "type": "noun",
+        "example": "The rider lost control on the slippery road.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "rubber",
+        "define": "a strong elastic material made from the juice of a tropical tree",
+        "IPA": "/ˈrʌbə(r)/",
+        "vietnames": "cao su",
+        "type": "noun",
+        "example": "Tires are made from rubber.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "rug",
+        "define": "a piece of thick material used on the floor",
+        "IPA": "/rʌɡ/",
+        "vietnames": "tấm thảm",
+        "type": "noun",
+        "example": "There’s a beautiful rug in the living room.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "salespeople",
+        "define": "people whose job is to sell products or services",
+        "IPA": "/ˈseɪlzˌpiːpl/",
+        "vietnames": "nhân viên bán hàng",
+        "type": "noun",
+        "example": "Our company trains all new salespeople thoroughly.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "sharply",
+        "define": "suddenly and by a large amount",
+        "IPA": "/ˈʃɑːpli/",
+        "vietnames": "một cách mạnh, đột ngột",
+        "type": "adverb",
+        "example": "Prices rose sharply last month.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "similarity",
+        "define": "a feature that things or people have in common",
+        "IPA": "/ˌsɪməˈlærəti/",
+        "vietnames": "sự tương đồng",
+        "type": "noun",
+        "example": "There’s a strong similarity between the two languages.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "someday",
+        "define": "at an unknown time in the future",
+        "IPA": "/ˈsʌm.deɪ/",
+        "vietnames": "một ngày nào đó",
+        "type": "adverb",
+        "example": "I hope to visit Japan someday.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "spectator",
+        "define": "someone who watches an event, especially a sports event",
+        "IPA": "/ˈspek.teɪ.tər/",
+        "vietnames": "khán giả",
+        "type": "noun",
+        "example": "Thousands of spectators watched the football match.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "stereo",
+        "define": "a system for playing music that sends sound through two speakers",
+        "IPA": "/ˈster.i.əʊ/",
+        "vietnames": "máy nghe nhạc stereo",
+        "type": "noun",
+        "example": "I bought a new stereo for my room.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "storeroom",
+        "define": "a room where things are stored",
+        "IPA": "/ˈstɔː.ruːm/",
+        "vietnames": "phòng kho",
+        "type": "noun",
+        "example": "The extra chairs are kept in the storeroom.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "subsidize",
+        "define": "to support financially",
+        "IPA": "/ˈsʌbsɪdaɪz/",
+        "vietnames": "trợ cấp",
+        "type": "verb",
+        "example": "The government subsidizes low-income housing.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "suspicious",
+        "define": "believing that someone or something is wrong or dishonest",
+        "IPA": "/səˈspɪʃəs/",
+        "vietnames": "đáng nghi",
+        "type": "adjective",
+        "example": "She was suspicious of his sudden generosity.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "tasty",
+        "define": "having a pleasant flavor",
+        "IPA": "/ˈteɪsti/",
+        "vietnames": "ngon",
+        "type": "adjective",
+        "example": "That was a really tasty meal!",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "terrific",
+        "define": "very good or excellent",
+        "IPA": "/təˈrɪfɪk/",
+        "vietnames": "tuyệt vời",
+        "type": "adjective",
+        "example": "You did a terrific job!",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "underground",
+        "define": "below the surface of the ground",
+        "IPA": "/ˌʌndəˈɡraʊnd/",
+        "vietnames": "dưới lòng đất",
+        "type": "adjective",
+        "example": "The parking garage is underground.",
+        "status": "remember"
+      },
+      {
+        "vocabulary": "unpaid",
+        "define": "not yet paid; not receiving money",
+        "IPA": "/ʌnˈpeɪd/",
+        "vietnames": "chưa trả, không lương",
+        "type": "adjective",
+        "example": "He worked as an unpaid volunteer.",
+        "status": "remember"
+      }
+    ]
+  },
+  {
+    "id": "19",
+    "vocabularies": []
+  }
+]
