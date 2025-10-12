@@ -4,6 +4,9 @@
     import Header from "@/components/Header/index.vue";
     import { onMounted } from "vue";
     import { ref } from "vue";
+    import { useRouter } from "vue-router";
+
+    const router = useRouter();
 
     const allVocabularyList = ref({});
     onMounted(async () => {
@@ -11,7 +14,7 @@
     })
 
     const handleItemClick = (id) => {
-        console.log(id)
+        router.push(`/learn/${id}/0`);
     }
 
 </script>
