@@ -21,3 +21,29 @@
 .forgetBtn {
     background: rgb(1, 3, 39);
 }
+
+@media(max-width: 320px) {
+    .btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50px;
+        padding: 5px 10px;
+        background: rgb(61, 199, 204);
+        font-size: 12px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        color: black;
+        background: rgb(255, 255, 255);
+    }
+
+    .showAnswerBtn {
+        background: rgb(84, 84, 255);
+    }
+
+    .forgetBtn {
+        background: rgb(1, 3, 39);
+    }
+}

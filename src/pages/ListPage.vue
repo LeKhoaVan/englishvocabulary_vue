@@ -52,6 +52,42 @@
         background: white;
         font-size: 21px;
     }
+
+    @media(max-width:320px){
+
+    .pageContainer {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        /* justify-content: flex-start;
+        align-items: self-start; */
+        flex-wrap: wrap;
+        color: rgb(0, 0, 0);
+        font-size: 13px;
+        font-weight: bold;
+        background: rgba(0, 0, 0, 0.301);
+        
+        overflow-x: auto;
+    }
+
+    .listItem {
+        width: 45%;
+        height: 25%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 5px;
+        background-color: rgba(255, 255, 255, 0.904);
+        cursor: pointer;
+    }
+
+    .listItem:hover {
+        background: white;
+        font-size: 14px;
+    }
+    }
 </style>
 
 <template>

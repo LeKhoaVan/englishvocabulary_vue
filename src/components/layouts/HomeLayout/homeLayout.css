@@ -17,3 +17,10 @@
     height: 80%;
     margin-top: 20px;
 }
+
+@media(max-width: 320px) {
+    .container {
+        color: white;
+        font-size: 18px;
+    }
+}
