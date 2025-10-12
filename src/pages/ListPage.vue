@@ -53,7 +53,7 @@
         font-size: 21px;
     }
 
-    @media(max-width:380px){
+    @media(max-width:410px){
 
     .pageContainer {
         width: 100%;

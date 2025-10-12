@@ -47,7 +47,7 @@
     color: black;
 }
 
-@media(max-width: 380px) {
+@media(max-width: 410px) {
     .custom-alert {
         position: fixed;
         top: 20%;
