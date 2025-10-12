@@ -53,7 +53,7 @@
         font-size: 21px;
     }
 
-    @media(max-width:320px){
+    @media(max-width:380px){
 
     .pageContainer {
         width: 100%;
@@ -64,7 +64,7 @@
         align-items: self-start; */
         flex-wrap: wrap;
         color: rgb(0, 0, 0);
-        font-size: 13px;
+        font-size: 11px;
         font-weight: bold;
         background: rgba(0, 0, 0, 0.301);
         
@@ -85,7 +85,7 @@
 
     .listItem:hover {
         background: white;
-        font-size: 14px;
+        font-size: 12px;
     }
     }
 </style>
