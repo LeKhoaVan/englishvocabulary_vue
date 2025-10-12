@@ -34,7 +34,8 @@
 .error {
     font-size: 18px;
     padding: 10px 0px;
-    color: red;
+    font-weight: bold;
+    color: rgb(170, 0, 0);
 }
 
 .correct {

@@ -3,6 +3,7 @@
     import Button from "../Button/index.vue";
     import { getVocabularyList, getVocabularyBySTT } from "@/vocabularyData";
     import { useRoute, useRouter } from "vue-router";
+    import Alert from "@/components/Alert/index.vue";
 
 
     const route = useRoute();
@@ -14,6 +15,7 @@
     // Biến reactive
     const isClues = ref(false);
     const isCheck = ref(false);
+    const isAlert = ref(true);
     const isCheckIncorrect = ref(false);
     const vocabulary = ref({});
     const vocabularyTotal = ref(0);
@@ -69,6 +71,10 @@
         isCheck.value = true;
     }
 
+    const handleCloseClick = () => {
+        isAlert.value = false
+    }
+
     onMounted(async () => {
         vocabulary.value = await getVocabularyBySTT(listId, vocabularySTT.value);
         vocabularyList = await getVocabularyList(listId)
@@ -85,33 +91,23 @@
         {immediate: true}
     )
 
+
+
 </script>
 
 <style scoped>
     @import './vocabularyBox.css';
 </style>
 
-<!-- <script>
-
-    export default {
-        data(){
-            return {
-                // allVocabulary: [],
-                // vocabularyList: [],
-                vocabularyInputValue: "",
-               
-            };
-        },
-
-        // async mounted() {
-        //     this.vocabulary = await getVocabularyBySTT(listId, vocabularySTT);
-        
-        // },
-    }
-</script> -->
-
 <template>
     <div class="homeContainer">
+        <Alert title="Thông Báo Quan Trọng"
+            message="Enter để kiểm tra và sang từ tiếp theo!!!"
+            type="info"
+            @click="handleCloseClick"
+            v-if="isAlert"
+        />
+        
         <div class="vocabularybox">
                 <p class="listid">List <span class="listData">{{ listId }}</span></p>
                 <p class="define">Define: <span class="defineData">{{vocabulary.define}}</span> </p>
@@ -120,7 +116,7 @@
                     <!-- <span class="prouData">{{vocabulary.IPA}}</span> -->
                 </p>
                 <!-- <Button btnType="Clues" btnName="Clues"> </Button> -->
-                <p class="error" v-if="isCheckIncorrect">Incorrect</p>
+                <p class="error" v-if="isCheckIncorrect">INCORRECT</p>
                 <p class="error" v-if="!isCheckIncorrect"><br/></p>
 
                 <input type="text"  class="input vocabularyinput" spellcheck="false"

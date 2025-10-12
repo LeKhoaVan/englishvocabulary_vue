@@ -19,7 +19,7 @@
                 <RouterLink class="menuItem" :class="{activeItem: pageName === 'HomePage'}" to="/">Home</RouterLink>
                 <RouterLink class="menuItem" :class="{activeItem: pageName === 'LearnPage'}" to="/learn/23/0">Learn</RouterLink>
                 <RouterLink class="menuItem" :class="{activeItem: pageName === 'ListPage'}" to="/vocabulary-list">Vocabularies List</RouterLink>
-                <RouterLink class="menuItem" :class="{activeItem: pageName === ''}" to="/">Forgotten Vocabulary</RouterLink>
+                <RouterLink class="menuItem" :class="{activeItem: pageName === 'ForgottenVocabularyPage'}" to="/forgotten-vocabulary">Forgotten Vocabulary</RouterLink>
         </div>
     </div>
 </template>
