@@ -1,3 +1,10 @@
+<script setup lang="ts">
+    import { RouterLink, useRoute } from 'vue-router';
+
+    const route = useRoute();
+    const pageName = route.name;    
+</script>
+
 <style scoped>
     @import './header.css';
 </style>
@@ -9,10 +16,10 @@
             <span class="logoName">LeVant</span>
         </div>
         <div class="menuContainer">
-                <li class="menuItem"><a href="#" >Home</a></li>
-                <li class="menuItem activeItem"><a href="#">English</a></li>
-                <li class="menuItem"><a href="#" >Việt Nam</a></li>
-                <li class="menuItem"><a href="#" >Forgotten Vocabulary</a></li>
+                <RouterLink class="menuItem" :class="{activeItem: pageName === 'HomePage'}" to="/">Home</RouterLink>
+                <RouterLink class="menuItem" :class="{activeItem: pageName === 'LearnPage'}" to="/learn/23/0">Learn</RouterLink>
+                <RouterLink class="menuItem" :class="{activeItem: pageName === 'ListPage'}" to="/vocabulary-list">Vocabularies List</RouterLink>
+                <RouterLink class="menuItem" :class="{activeItem: pageName === ''}" to="/">Forgotten Vocabulary</RouterLink>
         </div>
     </div>
 </template>

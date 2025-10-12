@@ -37,6 +37,12 @@
     color: red;
 }
 
+.correct {
+    font-size: 18px;
+    padding: 10px 0px;
+    color: rgb(50, 218, 50);
+}
+
 .vocabularyinput {
     width: 30%;
     margin-bottom: 10px;
@@ -52,6 +58,7 @@
     padding: 8px 10px;
     outline: white;
     border: 1px solid white;
+    text-decoration: none;
 }
 
 .vocabularyinput {

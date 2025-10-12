@@ -1,20 +1,9 @@
-<script setup>
-  import VocabularyBox from './components/VocabularyBox/index.vue';
-  import DefaultLayout from '@/components/layouts/DefaultLayout';
-  import Header from '@/components/Header';
+<script>
+  import { RouterView } from 'vue-router';
 </script>
 
 <template>
-  <DefaultLayout>
-
-    <template #header>
-      <Header />
-    </template>
-
-    <template #vocabularyBox>
-      <VocabularyBox />
-    </template>
-  </DefaultLayout>
+  <RouterView />
 </template>
 
 

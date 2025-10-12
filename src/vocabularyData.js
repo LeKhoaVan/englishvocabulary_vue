@@ -1,10 +1,8 @@
 // read vocabulary file
 const readAllVocabulary =
-    fetch("vocabularylist.json")
-        .then(respond => respond.json()
-        )
-        .then(data => data
-        )
+    fetch("/vocabularylist.json")
+        .then(respond => respond.json())
+        .then(data => data)
         .catch(error => {
             console.log("Error when read vocabulary data: ", error);
         });

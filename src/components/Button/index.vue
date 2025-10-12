@@ -19,8 +19,8 @@
 
     // Tính class động cho button
     const btnClass = computed(() => {
-        if(props.btnType === 'check') {
-            return 'checkBtn';
+        if(props.btnType === 'showAnswer') {
+            return 'showAnswerBtn';
         } else if (props.btnType === 'forget'){
             return 'forgetBtn';
         } else if (props.btnType === 'backward') {
@@ -31,6 +31,7 @@
         
     })
 
+    // @click="handleClick"
     const handleClick = ()=> {
         console.log("test");
     }
@@ -38,7 +39,7 @@
 </script>
 
 <template>
-  <div class="btn" :class="btnClass" @click="handleClick">
+  <div class="btn" :class="btnClass" >
     <span>{{ btnName }}</span>
   </div>
 </template>

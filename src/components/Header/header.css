@@ -58,17 +58,15 @@
 
 .menuItem:hover {
     background: white;
-
-    a {
-        color: black;
-        font-size: 22px;
-        font-weight: lighter;
-    }
+    color: black;
+    font-size: 22px;
+    font-weight: lighter;
 
 }
 
 .activeItem {
     background: white;
+    color: black;
 }
 
 
