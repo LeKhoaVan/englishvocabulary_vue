@@ -10702,10 +10702,10 @@
       },
       {
         "vocabulary": "retreat",
-        "define": "a quiet or secluded place for rest and relaxation",
+        "define": "to go away from a place or person in order to escape from fighting or danger, a quiet or secluded place for rest and relaxation",
         "IPA": "/rɪˈtriːt/",
-        "vietnames": "nơi ẩn dật, nghỉ dưỡng",
-        "type": "noun",
+        "vietnames": "rút lui, nơi ẩn dật, nghỉ dưỡng",
+        "type": "verb, noun",
         "example": "They spent the weekend at a mountain retreat.",
         "status": "remember"
       },

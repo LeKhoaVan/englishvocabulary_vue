@@ -50,10 +50,86 @@ const getVocabularyBySTT = async (listId, stt = 0) => {
     }
 }
 
+// check value item in session file
+const checkValueItemSession = (vocabularyList, stt) => {
+    for (let item of vocabularyList) {
+        if (item === stt) {
+            return true;
+        }
+    }
+}
+
+// write vocabularies to session file
+const writeVocabularyInSession = (listId, stt) => {
+    try {
+        let vocabularyList = JSON.parse(sessionStorage.getItem(listId)) || [];
+
+        if (!checkValueItemSession(vocabularyList, stt)) {
+            vocabularyList.push(stt);
+            sessionStorage.setItem(listId, JSON.stringify(vocabularyList));
+        }
+
+    } catch (error) {
+        console.log("Error when write vocabulary to session file: ", error)
+    };
+}
+
+//read all vocabularies from session file 
+const readAllVocabularyFromSession = () => {
+    try {
+        let allVocabularyFromSession = {};
+        for (let i = 0; i < sessionStorage.length; i++) {
+            const key = sessionStorage.key(i);
+            const value = sessionStorage.getItem(key);
+
+            allVocabularyFromSession[key] = value
+        }
+        return allVocabularyFromSession;
+    } catch (error) {
+        console.log("error when read all vocabulary from session file: ", error);
+    }
+}
+
+// read vocabularies by listId from session file
+const readVocabularyFromSession = (listId) => {
+    try {
+        return sessionStorage.getItem(listId);
+    } catch (error) {
+        console.log("error when read vocabulary from session file: ", error);
+    }
+}
+
+// read vocabulary list by list 
+const getVocabularyListByList = async (id, list) => {
+    try {
+        let vocabularyListByList = {};
+        let temporaryVocabulary = [];
+        const vocabularyList = await getVocabularyList(id);
+
+        list.forEach(item => {
+            temporaryVocabulary.push(vocabularyList.vocabularies[item])
+        });
+
+
+        vocabularyListByList.id = id;
+        vocabularyListByList.vocabularies = temporaryVocabulary;
+        console.log(vocabularyListByList);
+
+        return vocabularyListByList;
+
+    } catch (error) {
+        console.log("error when vocabulary list by list: ", error);
+    }
+}
+
 
 export {
     getAllVocabulary,
     getVocabularyList,
     getVocabularyBySTT,
+    readAllVocabularyFromSession,
+    writeVocabularyInSession,
+    readVocabularyFromSession,
+    getVocabularyListByList,
 
 }

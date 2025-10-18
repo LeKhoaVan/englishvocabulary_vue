@@ -17,21 +17,17 @@
     const isAlert = ref(true);
     const vocabulary = ref({});
     const route = useRoute();
-
     const vocabularySTT = ref(parseInt(route.params.stt));
     const isCheck = ref(false);
     const isCheckIncorrect = ref(false);
     const vocabularyInputValue = ref("");
     let vocabularyTotal = 0;
 
-    
-
-
     watch(
         [() => props.vocabularyList, ()=> route.params.stt,],
         ([newVal, newStt]) => {
             if (newVal.vocabularies) {      
-                vocabulary.value = newVal.vocabularies[newStt];                
+                vocabulary.value = newVal.vocabularies[newStt]
                 vocabularyTotal = newVal.vocabularies.length;
             }
         },
@@ -88,6 +84,7 @@
     const handleBookMarkClick = (listId, stt) =>{
         if(listId !== undefined && stt !== undefined) {
              writeVocabularyInSession(listId, stt)
+            console.log(listId, props.vocabularyList.vocabularies);
         }
     }
 
@@ -115,9 +112,9 @@
                     <p class="listid">List <span class="listData">{{ props.vocabularyList?.id }}</span></p>
                     <img class="iconBookMark" src="../../assets/bookmark-regular-full.svg" @click="handleBookMarkClick(props.vocabularyList?.id,vocabularySTT)" />
                 </div>
-                <p class="define">Define: <span class="defineData">{{vocabulary?.define}}</span> </p>
+                <p class="define">Define: <span class="defineData">{{vocabulary.define}}</span> </p>
                 <p class="vietnames">Vietnames: 
-                    <span class="vietnamesData">{{ vocabulary?.vietnames }}</span> 
+                    <span class="vietnamesData">{{ vocabulary.vietnames }}</span> 
                     <!-- <span class="prouData">{{vocabulary.IPA}}</span> -->
                 </p>
                 <!-- <Button btnType="Clues" btnName="Clues"> </Button> -->
@@ -131,8 +128,8 @@
                 >
                 <!-- <input type="text" class="input vocabularyinput errorinput"> -->
                 <p class="anwser" v-if="isCheck">Anwser: 
-                    <span class="anwserData">{{vocabulary?.vocabulary}} --- {{vocabulary?.IPA}}  --- </span> 
-                    (<span class="typeData">{{ vocabulary?.type }}</span>)
+                    <span class="anwserData">{{vocabulary.vocabulary}} --- {{vocabulary.IPA}}  --- </span> 
+                    (<span class="typeData">{{ vocabulary.type }}</span>)
                 </p>
 
                 <p class="anwser" v-if="!isCheck"></p>

@@ -1,8 +1,8 @@
 import { createMemoryHistory, createRouter, createWebHistory } from 'vue-router';
-import LearnPage from '@/pages/LearnPage.vue';
-import HomePage from '@/pages/HomePage.vue';
-import ListPage from '@/pages/ListPage.vue';
-import ForgottenVocabulary from '@/pages/ForgottenVocabulary.vue';
+import LearnPage from '@/pages/LearnPage/index.vue';
+import HomePage from '@/pages/HomePage/index.vue';
+import ListPage from '@/pages/ListPage/index.vue';
+import ForgottenVocabulary from '@/pages/ForgottenVocabularyPage/index.vue';
 
 const routes = [
     { path: '/', component: HomePage, name: "HomePage" },
