@@ -99,6 +99,16 @@ const readVocabularyFromSession = (listId) => {
     }
 }
 
+//delete vocabulary list from session file
+const deleteVocabularyFromSession = (listId) => {
+    try {
+        sessionStorage.removeItem(listId);
+        return true;
+    } catch (error) {
+        console.log("error when delete vocabulay list from session storage", error);
+    }
+}
+
 // read vocabulary list by list 
 const getVocabularyListByList = async (id, list) => {
     try {
@@ -113,7 +123,6 @@ const getVocabularyListByList = async (id, list) => {
 
         vocabularyListByList.id = id;
         vocabularyListByList.vocabularies = temporaryVocabulary;
-        console.log(vocabularyListByList);
 
         return vocabularyListByList;
 
@@ -131,5 +140,5 @@ export {
     writeVocabularyInSession,
     readVocabularyFromSession,
     getVocabularyListByList,
-
+    deleteVocabularyFromSession,
 }

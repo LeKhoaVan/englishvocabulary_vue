@@ -12,7 +12,6 @@
   let listId = route.params.listId;
 
   const list = route.query.list?.split(',').map(Number) // [53, 50, 48, 0] 
-  console.log(list);
 
   onMounted(async () => {
     if(list !== undefined) {

@@ -121,6 +121,10 @@
         justify-self: start;
     }
 
+    .iconBookMark {
+        width: 10%;
+    }
+
     .define {
         padding: 6px 0px;
         font-size: 18px;

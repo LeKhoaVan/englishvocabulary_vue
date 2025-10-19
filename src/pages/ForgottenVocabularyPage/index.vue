@@ -1,7 +1,7 @@
 <script setup>
     import HomeLayout from "@/components/layouts/HomeLayout/index.vue";
     import Header from "@/components/Header/index.vue";
-    import { readAllVocabularyFromSession } from "@/vocabularyData";
+    import { readAllVocabularyFromSession, deleteVocabularyFromSession } from "@/vocabularyData";
     import { onMounted, ref } from "vue";
     import { useRouter } from "vue-router";
 
@@ -24,6 +24,15 @@
         });
     }
 
+    const handleTrashClick = (id) => {
+        const result = deleteVocabularyFromSession(id);
+        if(result) {
+            router.go(0);
+        }else {
+            alert("Failure to erase vocabulary forgotten")
+        }
+    }
+
 </script>
 
 <style scoped>
@@ -41,10 +50,12 @@
                 <p>Forgotten Vocabulary</p>
             </div>
             <div class="pageContainer">
-                <div class="listItem" v-for="id in listId" @click="handleItemClick(id)">
-                    <span>List Name: {{ id }}</span>
-                    <span>forgotten Vocabulary: {{ JSON.parse(allVocabularyFromSession[id]).length}}</span>
-                    
+                <div class="listItem" v-for="id in listId">
+                    <img class="trashItem" src="../../assets/trash-solid-full.svg" alt="delete" @click="handleTrashClick(id)"/>
+                    <div class="headerItem"  @click="handleItemClick(id)">
+                        <span>List Name: {{ id }}</span>
+                        <span>forgotten Vocabulary: {{ JSON.parse(allVocabularyFromSession[id]).length}}</span>
+                    </div>                    
                 </div>
             </div>
         </template>

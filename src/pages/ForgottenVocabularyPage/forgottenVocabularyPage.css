@@ -27,8 +27,9 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     margin: 8px;
+    padding: 0px 10px;
     background-color: rgba(255, 255, 255, 0.904);
     cursor: pointer;
 }
@@ -36,4 +37,58 @@
 .listItem:hover {
     background: white;
     font-size: 21px;
+}
+
+.headerItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.trashItem {
+    width: 12%;
+    object-fit: cover;
+}
+
+.trashItem:hover {
+    filter: invert(13%) sepia(93%) saturate(7486%) hue-rotate(2deg) brightness(74%) contrast(119%);
+
+}
+
+@media(max-width:410px) {
+
+    .pageContainer {
+        width: 100%;
+        height: 92%;
+        display: flex;
+        flex-direction: row;
+        /* justify-content: flex-start;
+        align-items: self-start; */
+        flex-wrap: wrap;
+        color: rgb(0, 0, 0);
+        font-size: 11px;
+        font-weight: bold;
+        background: rgba(0, 0, 0, 0.301);
+
+        overflow-x: auto;
+    }
+
+    .listItem {
+        width: 45%;
+        height: 25%;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center;
+        align-items: center; */
+        margin: 5px;
+        background-color: rgba(255, 255, 255, 0.904);
+        cursor: pointer;
+    }
+
+    .listItem:hover {
+        background: white;
+        font-size: 12px;
+    }
 }
