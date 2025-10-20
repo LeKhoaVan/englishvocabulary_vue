@@ -3,17 +3,19 @@
     import Header from "@/components/Header/index.vue";
     import { readAllVocabularyFromSession, deleteVocabularyFromSession } from "@/vocabularyData";
     import { onMounted, ref } from "vue";
-    import { useRouter } from "vue-router";
+    import { useRoute, useRouter } from "vue-router";
 
     let allVocabularyFromSession = readAllVocabularyFromSession();
     let listId = ref([]);
     const router = useRouter();
+    const route = useRoute();
 
     onMounted(() => {
         for(let item in allVocabularyFromSession) {
             listId.value.push(item);
         } 
     })
+
 
     const handleItemClick = (id) => {
         const allForgottenVocabulary = JSON.parse(allVocabularyFromSession[id]);
@@ -27,7 +29,11 @@
     const handleTrashClick = (id) => {
         const result = deleteVocabularyFromSession(id);
         if(result) {
-            router.go(0);
+            
+            // router.push({
+            //     path: route.path,
+            //     query: { reload: Date.now() }
+            // });
         }else {
             alert("Failure to erase vocabulary forgotten")
         }
@@ -49,6 +55,7 @@
             <div class="title">
                 <p>Forgotten Vocabulary</p>
             </div>
+            
             <div class="pageContainer">
                 <div class="listItem" v-for="id in listId">
                     <img class="trashItem" src="../../assets/trash-solid-full.svg" alt="delete" @click="handleTrashClick(id)"/>
