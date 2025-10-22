@@ -2,7 +2,7 @@
     import HomeLayout from "@/components/layouts/HomeLayout/index.vue";
     import Header from "@/components/Header/index.vue";
     import { readAllVocabularyFromSession, deleteVocabularyFromSession } from "@/vocabularyData";
-    import { onMounted, ref } from "vue";
+    import { onMounted, ref, watch } from "vue";
     import { useRoute, useRouter } from "vue-router";
 
     let allVocabularyFromSession = readAllVocabularyFromSession();
@@ -29,11 +29,10 @@
     const handleTrashClick = (id) => {
         const result = deleteVocabularyFromSession(id);
         if(result) {
-            
-            // router.push({
-            //     path: route.path,
-            //     query: { reload: Date.now() }
-            // });
+            router.push({
+                path: '/forgotten-vocabulary',
+                query: { reload: Date.now() },
+            })
         }else {
             alert("Failure to erase vocabulary forgotten")
         }
