@@ -3,7 +3,8 @@
 </script>
 
 <template>
-  <RouterView :key="$route.fullPath"/>
+  <!-- :key="$route.fullPath" -->
+  <RouterView />
 </template>
 
 
